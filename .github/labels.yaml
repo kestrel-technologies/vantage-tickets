@@ -1,0 +1,27 @@
+# Perch labels for vantage-tickets. How to change this: edit, then `seeds/publish.py repos` (idempotent).
+- {name: incident, color: b60205, description: "INC queue"}
+- {name: change, color: 1d76db, description: "CHG queue"}
+- {name: remediation, color: 0e8a16, description: "REM queue"}
+- {name: exception, color: 5319e7, description: "ENTSEC-EXC queue"}
+- {name: architecture-review, color: c5def5, description: "KSS-REV queue"}
+- {name: watchtower, color: 0052cc, description: "Watchtower team queue"}
+- {name: sev1, color: d93f0b, description: "Severity 1"}
+- {name: sev2, color: e99695, description: "Severity 2"}
+- {name: blocked, color: fbca04, description: "Waiting on something outside the team"}
+- {name: approved, color: 0e8a16, description: "Approved exception or change"}
+- {name: expired, color: cccccc, description: "Exception past its expiry date"}
+- {name: closed-accepted-risk, color: 6a737d, description: "Closed by the business owner as an accepted risk"}
+- {name: "control:IAM-01", color: f9d0c4, description: "KSS-IAM-01 Single Sign-On"}
+- {name: "control:IAM-02", color: f9d0c4, description: "KSS-IAM-02 Privileged access"}
+- {name: "control:IAM-03", color: f9d0c4, description: "KSS-IAM-03 Integration accounts"}
+- {name: "control:SEC-04", color: f9d0c4, description: "KSS-SEC-04 Secrets"}
+- {name: "control:NET-05", color: f9d0c4, description: "KSS-NET-05 Network restrictions"}
+- {name: "control:API-06", color: f9d0c4, description: "KSS-API-06 Connected apps and API"}
+- {name: "control:MON-07", color: f9d0c4, description: "KSS-MON-07 Event monitoring"}
+- {name: "control:DAT-08", color: f9d0c4, description: "KSS-DAT-08 Public and guest access"}
+- {name: "team:flock", color: bfdadc, description: "Flock (EntSec Identity Platforms)"}
+- {name: "team:watchtower", color: bfdadc, description: "Watchtower (EntSec Detection & Monitoring)"}
+- {name: "team:vantage-salesforce", color: bfdadc, description: "Vantage Salesforce administration"}
+- {name: "team:vantage-bizsys", color: bfdadc, description: "Vantage Business Systems"}
+- {name: "team:corpeng-crm", color: bfdadc, description: "CorpEng CRM Platform"}
+- {name: rca, color: d4c5f9, description: "Root cause analysis"}
